@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4B93BF;
+    display: flex;
+    justify-content: space-between;
+    color: #E4EEF1;
+    align-items: center;
+   
+}
+h1{
+   
+font-size: 28px;
+font-family: Inter;
+}
+
+header a {
+    text-decoration: none;
+    color: #E4EEF1;
+}
+
+header img {
+    height: 107px;
+    width: 146px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 60%; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+
+}
+/*SECTION PRIMEIRA SEÇÃO*/
+
+.primeiraSessao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(228, 238, 241, 1);
+}
+
+.primeiraSessao figure img {
+    width: 550px;
+    height: 550px;
+    margin-right: 160px;
+
+  
+}
+.primeiraSessao p {
+    margin-left: 180px; 
+    margin-right: 180px;
+    font-size: 24px;
+    color: #0f468c;
+}
+
+/*SECTION SEGUNDA SEÇÃO*/
+.segundaSessao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4B93BF;
+}
+
+.segundaSessao figure img{
+    width: 343px;
+    height: auto;
+}
+
+.segundaSessao p{
+    color: #E4EEF1;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    width: 40vw;
+}
+/*COLUNA DE IMAGENS */
+.coluna {
+    text-align: center;
+    align-content: center;
+  }
+  
+  main li {
+    display: inline-block;
+    margin-inline: 1px;
+  }
+  
+  div img {
+    height: 380px;
+    width: 383px;
+  }
+
+
+/*FOOTER - RODAPÉ DA PAGINA*/
+footer {
+    background-color: #4B93BF;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 102px;
+    margin-top: 40px;
+}
+
+
+footer p{ 
+    color: #E4EEF1;
+    font-size: 15px;
+    
+    list-style: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+   
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+

@@ -12,50 +12,52 @@ header {
     justify-content: space-between;
     color: #E4EEF1;
     align-items: center;
-   
-}
-h1{
-   
-font-size: 28px;
-font-family: Inter;
+    font-family: Inter;  
 }
 
-header a {
-    text-decoration: none;
-    color: #E4EEF1;
-}
-
-header img {
+figure img {
     height: 107px;
     width: 146px;
     padding-left: 20px;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
-.logo {
+figure {
     display: flex;
     align-items: center;
+}
+
+figcaption{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
 }
 
 nav {
     width: 60%; 
 }
 
+header nav a {
+    text-decoration: none;
+    color: #E4EEF1;
+}
+
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 28px;
     font-family: 'Inter', sans-serif;
 
 }
+
 /*SECTION PRIMEIRA SEÇÃO*/
 
 .primeiraSessao {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction:row;
     background-color: rgba(228, 238, 241, 1);
 }
 
@@ -64,7 +66,6 @@ ul {
     height: 550px;
     margin-right: 160px;
 
-  
 }
 .primeiraSessao p {
     margin-left: 180px; 
@@ -73,66 +74,62 @@ ul {
     color: #0f468c;
 }
 
-/*SECTION SEGUNDA SEÇÃO*/
-.segundaSessao{
+/*ASIDE */
+aside{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #4B93BF;
 }
 
-.segundaSessao figure img{
+aside figure img{
     width: 343px;
     height: auto;
 }
 
-.segundaSessao p{
+aside p{
     color: #E4EEF1;
     font-size: 30px;
     font-family: 'Inter', sans-serif;
     width: 40vw;
 }
+
 /*COLUNA DE IMAGENS */
-.coluna {
-    text-align: center;
-    align-content: center;
-  }
-  
-  main li {
-    display: inline-block;
-    margin-inline: 1px;
-  }
-  
-  div img {
-    height: 380px;
-    width: 383px;
+
+section .coluna {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction:row; 
   }
 
+ .coluna ul img {
+    height: 400px;
+    width: 400px;
+  }
 
 /*FOOTER - RODAPÉ DA PAGINA*/
+
 footer {
     background-color: #4B93BF;
     display: flex;
     justify-content: space-around;
 }
 
-footer img {
-    height: 102px;
-    margin-top: 40px;
+ .links img {
+    height:auto;
+    width: 100px;
+    margin-top: 10px;
 }
 
-
-footer p{ 
+span p{ 
     color: #E4EEF1;
-    font-size: 15px;
-    
-    list-style: none;
+    font-size: 18px;
     text-align: center;
     font-family: 'Inter', sans-serif;
-   
-    margin-top: 30px;
-    text-align: center;
-    
 }
 
-
+figure .pinguim{
+    height: auto;
+    width: 100px;
+}

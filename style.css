@@ -7,44 +7,44 @@
 }
 
 header {
-    background-color: #4B93BF;
-    display: flex;
-    justify-content: space-between;
-    color: #E4EEF1;
-    align-items: center;
-    font-family: Inter;  
+    background-color: #4B93BF; /*Define a cor de fundo na header*/
+    display: flex; /*O elemento header deve ser exibido como um contêiner flexível, permitindo que seus filhos sejam organizados usando propriedades flexíveis.*/
+    justify-content: space-between; /* Alinha os elementos filhos da header horizontalmente com espaço uniformemente distribuído entre eles, fazendo com que o primeiro elemento fique à esquerda e o último elemento à direita, com qualquer espaço extra distribuído entre os elementos filhos.*/
+    color: #E4EEF1; /*Define a cor dentro da header*/
+    align-items: center; /*Alinha os elementos filhos verticalmente dentro da header para que fiquem centralizados verticalmente.*/
+    font-family: Inter;  /*Define a familia da fonte*/
 }
 
 figure img {
-    height: 107px;
-    width: 146px;
-    padding-left: 20px;
-    margin-top: 8px;
+    height: 107px;/* altura*/
+    width: 146px;/* largura*/
+    padding-left: 20px;/* preenchimento a esquerda*/
+    margin-top: 8px;n /*margem superior*/
 }
 
 figure {
     display: flex;
-    align-items: center;
+    align-items: center;/* alinha os itens verticalmente*/
 }
 
 figcaption{
     font-family: 'Inter', sans-serif;
-    font-size: 28px;
+    font-size: 28px; /*tamanho da fonte*/
 }
 
 nav {
-    width: 60%; 
+    width: 60%; /* largura*/
 }
 
 header nav a {
-    text-decoration: none;
-    color: #E4EEF1;
+    text-decoration: none;/*Remove a decoração de texto sublinhado*/
+    color: #E4EEF1;/*define a cor do texto*/
 }
 
 ul {
-    list-style: none;
+    list-style: none;/*remove os marcadores de lista*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*espaçamento uniforme entre os elementos filhos em um contêiner flexível, tornando-os distribuídos igualmente ao longo do eixo principal (horizontal). */
     align-items: center;
     font-size: 28px;
     font-family: 'Inter', sans-serif;
@@ -56,19 +56,19 @@ ul {
 .primeiraSessao {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction:row;
+    justify-content: space-between;/*cria um espaçamento uniforme entre os elementos filhos em um contêiner flexível, mas sem adicionar espaço extra antes do primeiro elemento e após o último elemento.*/
+    flex-direction:row; /*organiza os itens de um contêiner flexível em uma linha horizontal, da esquerda para a direita*/
     background-color: rgba(228, 238, 241, 1);
 }
 
 .primeiraSessao figure img {
     width: 550px;
     height: 550px;
-    margin-right: 160px;
+    margin-right: 160px; /*margem direita */
 
 }
 .primeiraSessao p {
-    margin-left: 180px; 
+    margin-left: 180px; /*margem esquerda */
     margin-right: 180px;
     font-size: 24px;
     color: #0f468c;
@@ -78,7 +78,7 @@ ul {
 aside{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     background-color: #4B93BF;
 }
 
@@ -113,7 +113,7 @@ section .coluna {
 footer {
     background-color: #4B93BF;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;/*distribui o espaço disponível de forma igual antes e depois de cada elemento filho, criando um espaçamento uniforme em ambos os lados de cada elemento.*/
 }
 
  .links img {
@@ -125,7 +125,7 @@ footer {
 span p{ 
     color: #E4EEF1;
     font-size: 18px;
-    text-align: center;
+    text-align: center;/*alinhamento de texto ao centro*/
     font-family: 'Inter', sans-serif;
 }
 
